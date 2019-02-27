@@ -98,7 +98,7 @@ define('FRK_CONTEXT_ENABLE', TRUE);    // TRUE or FALSE
 // add description to tasks / todos
 define('FRK_DESCRIPTION_ENABLE', TRUE);        // TRUE OR FALSE
 // default user's country
-define('FRK_DEFAULT_COUNTRY', 'FR');
+define('FRK_DEFAULT_COUNTRY', 'BR');
 // charset (for unicode support)
 define('FRK_CHARSET', 'UTF-8');
 // use only if you have encoding/utf8 problems
