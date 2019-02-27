@@ -1,50 +1,50 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Bendras',
-	'email_alerts'		=> 'Elektroninio paðto pavojai,
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Bendras',
+    'email_alerts' => 'Elektroninio paï¿½to pavojai,
 	'contexts'			=> 'Kontekstai',
 );
 
 // email description
 $GLOBALS['langSystemEmail'] = array(
-    1 => 'Registruotis: naujas registracijos áspëjimas',
-    2 => 'Pasiraðykite: praðymo laukimas',
-    3 => 'Pasiraðykite: aktyvacijos elektroninis paðtas',
-    4 => 'Pasiraðykite: patvirtinimo elektroninis paðtas',
-    5 => 'Slaptaþodþio priminimas',
-    6 => 'Uþduoties áspëjimas',
-    7 => Uþduoties galutinio termino áspëjimas',
+    1 => 'Registruotis: naujas registracijos ï¿½spï¿½jimas',
+    2 => 'Pasiraï¿½ykite: praï¿½ymo laukimas',
+    3 => 'Pasiraï¿½ykite: aktyvacijos elektroninis paï¿½tas',
+    4 => 'Pasiraï¿½ykite: patvirtinimo elektroninis paï¿½tas',
+    5 => 'Slaptaï¿½odï¿½io priminimas',
+    6 => 'Uï¿½duoties ï¿½spï¿½jimas',
+    7 => Uï¿½duoties galutinio termino ï¿½spï¿½jimas',
 );
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'Nuo',
-    'to'            => 'Kam',
-    'cc'            => 'Cc',
-    'dir'           => 'Kat.',
-    'dir_in'        => 'Áëjo',
-    'dir_out'       => 'Iðëjo',
-    'alert'         => 'Áspëjimas',
-    'name'          => 'Vardas',
-    'email'         => 'E-paðtas',
-    'subject'       => 'Tema',
+    'from' => 'Nuo',
+    'to' => 'Kam',
+    'cc' => 'Cc',
+    'dir' => 'Kat.',
+    'dir_in' => 'ï¿½ï¿½jo',
+    'dir_out' => 'Iï¿½ï¿½jo',
+    'alert' => 'ï¿½spï¿½jimas',
+    'name' => 'Vardas',
+    'email' => 'E-paï¿½tas',
+    'subject' => 'Tema',
     'body_template' => 'Tema',
-    'enabled'       => 'Ágalintas',
-    'enable_label'  => 'Ágalinkite elektroninio paðto áspëjimà',
-    'disabled'      => 'Neágalintas,
-    'disable_label' => 'Uþdrausti elektroninio paðto áspëjimà',
-    'link_edit'     => 'Suredaguokite elektroninio paðto budrius nustatymus'
+    'enabled' => 'ï¿½galintas',
+    'enable_label' => 'ï¿½galinkite elektroninio paï¿½to ï¿½spï¿½jimï¿½',
+    'disabled' => 'Neï¿½galintas,
+    'disable_label' => 'Uï¿½drausti elektroninio paï¿½to ï¿½spï¿½jimï¿½',
+    'link_edit'     => 'Suredaguokite elektroninio paï¿½to budrius nustatymus'
 
 );
 ?>

@@ -1,32 +1,32 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
-    if (@constant('PRJ_REGISTRATION')) {
+if (@constant('PRJ_REGISTRATION')) {
+    ?>
+    <p><b>Jei jï¿½s nesate narys</b> bet norï¿½tï¿½ tapti tokiu, <a href="user_register.php">praï¿½ykite ï¿½ia</a>.</p>
+    <?php
+}
 ?>
-<p><b>Jei jûs nesate narys</b> bet norëtø tapti tokiu, <a href="user_register.php">praðykite èia</a>.</p>
-<?php
-    }
-?>
-<p><b>Jei jûs turite problem7 kai jungetes</b>, tai galëtø bûti dël vienos ið ðiø prieþasèiø:</p>
+<p><b>Jei jï¿½s turite problem7 kai jungetes</b>, tai galï¿½tï¿½ bï¿½ti dï¿½l vienos iï¿½ ï¿½iï¿½ prieï¿½asï¿½iï¿½:</p>
 <ul style="margin:-10px 0px 0px 40px;padding:0px">
-  <li>Jûs nesate registruotas, ar jûsø sesija baigësi</li>
-  <li>Jûs ávëdëte neteisingà slaptaþodá? 
-  <?php
-  if (@constant('PRJ_PASSWORD_REMINDER')) {
-  ?>
-  <a href="user_password.php">Praðykite naujo elektroniniu paðtu</a></li>
-  <?php
-  }
-  ?>
-  <li>Jûsø narðyklë nepalaiko javascript</li>
-  <li>Jûsø narðyklë neleidþia sausainëliø(cookies)</li>
-  <li>Jûs neturite pakankamai prieigos teisiø gauti prieigà prie puslapio.</li>
+    <li>Jï¿½s nesate registruotas, ar jï¿½sï¿½ sesija baigï¿½si</li>
+    <li>Jï¿½s ï¿½vï¿½dï¿½te neteisingï¿½ slaptaï¿½odï¿½?
+        <?php
+        if (@constant('PRJ_PASSWORD_REMINDER')) {
+        ?>
+        <a href="user_password.php">Praï¿½ykite naujo elektroniniu paï¿½tu</a></li>
+    <?php
+    }
+    ?>
+    <li>Jï¿½sï¿½ narï¿½yklï¿½ nepalaiko javascript</li>
+    <li>Jï¿½sï¿½ narï¿½yklï¿½ neleidï¿½ia sausainï¿½liï¿½(cookies)</li>
+    <li>Jï¿½s neturite pakankamai prieigos teisiï¿½ gauti prieigï¿½ prie puslapio.</li>
 </ul>

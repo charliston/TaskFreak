@@ -1,19 +1,19 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Vicente Jiménez Aguilar <googuy+taskfreak@gmail.com>              *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Vicente Jiménez Aguilar <googuy+taskfreak@gmail.com>              *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'General',
-	'email_alerts'		=> 'Alertas por correo electr&oacute;nico',
-	'contexts'			=> 'Contextos'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'General',
+    'email_alerts' => 'Alertas por correo electr&oacute;nico',
+    'contexts' => 'Contextos'
 );
 
 // email description
@@ -29,22 +29,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'De',
-    'to'            => 'Para',
-    'cc'            => 'CC',
-    'dir'           => 'Dir.',
-    'dir_in'        => 'ENTRADA',
-    'dir_out'       => 'SALIDA',
-    'alert'         => 'Alerta',
-    'name'          => 'Nombre',
-    'email'         => 'Correo Electr&oacute;nico',
-    'subject'       => 'Asunto',
+    'from' => 'De',
+    'to' => 'Para',
+    'cc' => 'CC',
+    'dir' => 'Dir.',
+    'dir_in' => 'ENTRADA',
+    'dir_out' => 'SALIDA',
+    'alert' => 'Alerta',
+    'name' => 'Nombre',
+    'email' => 'Correo Electr&oacute;nico',
+    'subject' => 'Asunto',
     'body_template' => 'Plantilla para cuerpo',
-    'enabled'       => 'Habilitado',
-    'enable_label'  => 'Habilitar alertas por correo electr&oacute;nico',
-    'disabled'      => 'Deshabilitado',
+    'enabled' => 'Habilitado',
+    'enable_label' => 'Habilitar alertas por correo electr&oacute;nico',
+    'disabled' => 'Deshabilitado',
     'disable_label' => 'Deshabilitar alertas por correo electr&oacute;nico',
-    'link_edit'     => 'Editar configuraci&oacute;n de alertas por correo electr&oacute;nico'
+    'link_edit' => 'Editar configuraci&oacute;n de alertas por correo electr&oacute;nico'
 
 );
 ?>

@@ -1,21 +1,21 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-******************************************************************************
-* Norwegian translation by Håvard Kristoffersen, www.theta-design.no	     *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ ******************************************************************************
+ * Norwegian translation by Håvard Kristoffersen, www.theta-design.no         *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Generelt',
-	'email_alerts'		=> 'E-post varsler',
-	'contexts'			=> 'Innhold'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Generelt',
+    'email_alerts' => 'E-post varsler',
+    'contexts' => 'Innhold'
 );
 
 // email description
@@ -31,22 +31,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'Fra',
-    'to'            => 'Ti',
-    'cc'            => 'Cc',
-    'dir'           => 'Dir.',
-    'dir_in'        => 'INN',
-    'dir_out'       => 'UT',
-    'alert'         => 'Varsling',
-    'name'          => 'Navn',
-    'email'         => 'E-post',
-    'subject'       => 'Emne',
+    'from' => 'Fra',
+    'to' => 'Ti',
+    'cc' => 'Cc',
+    'dir' => 'Dir.',
+    'dir_in' => 'INN',
+    'dir_out' => 'UT',
+    'alert' => 'Varsling',
+    'name' => 'Navn',
+    'email' => 'E-post',
+    'subject' => 'Emne',
     'body_template' => 'Body-mal',
-    'enabled'       => 'Aktivert',
-    'enable_label'  => 'Aktiver e-postvarsel',
-    'disabled'      => 'Deaktivert',
+    'enabled' => 'Aktivert',
+    'enable_label' => 'Aktiver e-postvarsel',
+    'disabled' => 'Deaktivert',
     'disable_label' => 'Deaktiver e-postvarsel',
-    'link_edit'     => 'Endre instillinger for e-postvarsel'
+    'link_edit' => 'Endre instillinger for e-postvarsel'
 
 );
 ?>

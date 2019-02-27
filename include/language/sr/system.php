@@ -1,19 +1,19 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Uobicajno',
-	'email_alerts'		=> 'Email alarmi',
-	'contexts'			=> 'Oblasti'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Uobicajno',
+    'email_alerts' => 'Email alarmi',
+    'contexts' => 'Oblasti'
 );
 
 // email description
@@ -29,22 +29,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'Od',
-    'to'            => 'Za',
-    'cc'            => 'Cc',
-    'dir'           => 'Dir.',
-    'dir_in'        => 'U',
-    'dir_out'       => 'IZ',
-    'alert'         => 'Alarm',
-    'name'          => 'Ime',
-    'email'         => 'Email',
-    'subject'       => 'Tema',
+    'from' => 'Od',
+    'to' => 'Za',
+    'cc' => 'Cc',
+    'dir' => 'Dir.',
+    'dir_in' => 'U',
+    'dir_out' => 'IZ',
+    'alert' => 'Alarm',
+    'name' => 'Ime',
+    'email' => 'Email',
+    'subject' => 'Tema',
     'body_template' => 'Body template',
-    'enabled'       => 'Aktivno',
-    'enable_label'  => 'Aktiviraj email alarm',
-    'disabled'      => 'Iskljuceno',
+    'enabled' => 'Aktivno',
+    'enable_label' => 'Aktiviraj email alarm',
+    'disabled' => 'Iskljuceno',
     'disable_label' => 'Iskljuci email alarm',
-    'link_edit'     => 'Promeni podesavanja za email alarm'
+    'link_edit' => 'Promeni podesavanja za email alarm'
 
 );
 ?>

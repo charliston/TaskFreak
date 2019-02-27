@@ -1,31 +1,31 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 ?>
 <p>&nbsp;</p>
-<h2 class="ctr">Aèiû jums <?php echo $objEditItem->getName(); ?>!</h3>
-<?php
-switch (PRJ_REGISTRATION) {
-case 1:
-?>
-<p class="ctr">Mes buvome praneðti ir aktyvinsime jûsø praneðimà kiek galima greièiau.</p>
-<p>&nbsp;</p>
-<?php
-	break;
-case 2:
-?>
-<p class="ctr">Praðom patikrinti savo paðto dëþutæ.</p>
-<p class="ctr">Jûs turëjote gauti elektroniná laiðkà, kuriame bus aktyvacijos kodas.</p>
-<p class="ctr">Praðom sekti instrukcijas elektroniniame paðte, kad uþbaigtumëte registracijà.</p>
-<?php
-}
-?>
-<p>&nbsp;</p>
+<h2 class="ctr">Aï¿½iï¿½ jums <?php echo $objEditItem->getName(); ?>!</h3>
+    <?php
+    switch (PRJ_REGISTRATION) {
+        case 1:
+            ?>
+            <p class="ctr">Mes buvome praneï¿½ti ir aktyvinsime jï¿½sï¿½ praneï¿½imï¿½ kiek galima greiï¿½iau.</p>
+            <p>&nbsp;</p>
+            <?php
+            break;
+        case 2:
+            ?>
+            <p class="ctr">Praï¿½om patikrinti savo paï¿½to dï¿½ï¿½utï¿½.</p>
+            <p class="ctr">Jï¿½s turï¿½jote gauti elektroninï¿½ laiï¿½kï¿½, kuriame bus aktyvacijos kodas.</p>
+            <p class="ctr">Praï¿½om sekti instrukcijas elektroniniame paï¿½te, kad uï¿½baigtumï¿½te registracijï¿½.</p>
+        <?php
+    }
+    ?>
+    <p>&nbsp;</p>

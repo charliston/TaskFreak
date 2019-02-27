@@ -1,19 +1,19 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Generalno',
-	'email_alerts'		=> 'Email poruke',
-	'contexts'			=> 'Sadržaji'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Generalno',
+    'email_alerts' => 'Email poruke',
+    'contexts' => 'Sadrï¿½aji'
 );
 
 // email description
@@ -29,22 +29,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'Od',
-    'to'            => 'Prema',
-    'cc'            => 'Cc',
-    'dir'           => 'Dir.',
-    'dir_in'        => 'Ulaz',
-    'dir_out'       => 'Izlaz',
-    'alert'         => 'Alert',
-    'name'          => 'Ime',
-    'email'         => 'Email',
-    'subject'       => 'Subjekt',
+    'from' => 'Od',
+    'to' => 'Prema',
+    'cc' => 'Cc',
+    'dir' => 'Dir.',
+    'dir_in' => 'Ulaz',
+    'dir_out' => 'Izlaz',
+    'alert' => 'Alert',
+    'name' => 'Ime',
+    'email' => 'Email',
+    'subject' => 'Subjekt',
     'body_template' => 'Tjelo',
-    'enabled'       => 'Omoguceno',
-    'enable_label'  => 'Omoguci e-mail poruku',
-    'disabled'      => 'Onemoguceno',
+    'enabled' => 'Omoguceno',
+    'enable_label' => 'Omoguci e-mail poruku',
+    'disabled' => 'Onemoguceno',
     'disable_label' => 'Onemoguci e-mail poruku',
-    'link_edit'     => 'Izmjeni e-m postavke'
+    'link_edit' => 'Izmjeni e-m postavke'
 
 );
 ?>

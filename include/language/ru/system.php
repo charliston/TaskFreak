@@ -1,19 +1,19 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Основные',
-	'email_alerts'		=> 'Уведомления email',
-	'contexts'			=> 'Типы'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Основные',
+    'email_alerts' => 'Уведомления email',
+    'contexts' => 'Типы'
 );
 
 // email description
@@ -29,22 +29,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'От',
-    'to'            => 'Кому',
-    'cc'            => 'Копия',
-    'dir'           => 'Dir.',
-    'dir_in'        => 'IN',
-    'dir_out'       => 'OUT',
-    'alert'         => 'Внимание',
-    'name'          => 'Имя',
-    'email'         => 'Email',
-    'subject'       => 'Тема',
+    'from' => 'От',
+    'to' => 'Кому',
+    'cc' => 'Копия',
+    'dir' => 'Dir.',
+    'dir_in' => 'IN',
+    'dir_out' => 'OUT',
+    'alert' => 'Внимание',
+    'name' => 'Имя',
+    'email' => 'Email',
+    'subject' => 'Тема',
     'body_template' => 'Body template',
-    'enabled'       => 'Включен',
-    'enable_label'  => 'Включено уведомление email',
-    'disabled'      => 'Выключен',
+    'enabled' => 'Включен',
+    'enable_label' => 'Включено уведомление email',
+    'disabled' => 'Выключен',
     'disable_label' => 'Выключено уведомление email',
-    'link_edit'     => 'Редактировать настройки уведомления по email'
+    'link_edit' => 'Редактировать настройки уведомления по email'
 
 );
 ?>

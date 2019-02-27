@@ -1,20 +1,20 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* Translation by Tobias Frasch <frasch@starsolutions.de>                     *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * Translation by Tobias Frasch <frasch@starsolutions.de>                     *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Allgemein',
-	'email_alerts'		=> 'E-Mail-Benachrichtigungen',
-	'contexts'			=> 'Kategorien'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Allgemein',
+    'email_alerts' => 'E-Mail-Benachrichtigungen',
+    'contexts' => 'Kategorien'
 );
 
 // email description
@@ -30,21 +30,21 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'Von',
-    'to'            => 'An',
-    'cc'            => 'CC',
-    'dir'           => 'Dir.',
-    'dir_in'        => 'IN',
-    'dir_out'       => 'OUT',
-    'alert'         => 'Benachrichtigung',
-    'name'          => 'Name',
-    'email'         => 'E-Mail',
-    'subject'       => 'Betreff',
+    'from' => 'Von',
+    'to' => 'An',
+    'cc' => 'CC',
+    'dir' => 'Dir.',
+    'dir_in' => 'IN',
+    'dir_out' => 'OUT',
+    'alert' => 'Benachrichtigung',
+    'name' => 'Name',
+    'email' => 'E-Mail',
+    'subject' => 'Betreff',
     'body_template' => 'Inhaltsvorlage',
-    'enabled'       => 'Aktiviert',
-    'enable_label'  => 'Aktiviere E-Mail-Benachrichtigung',
-    'disabled'      => 'Deaktiviert',
+    'enabled' => 'Aktiviert',
+    'enable_label' => 'Aktiviere E-Mail-Benachrichtigung',
+    'disabled' => 'Deaktiviert',
     'disable_label' => 'Deaktiviere E-Mail-Benachrichtigung',
-    'link_edit'     => '&Auml;ndere E-Mail-Benachrichtigungseinstellungen',
+    'link_edit' => '&Auml;ndere E-Mail-Benachrichtigungseinstellungen',
 );
 ?>

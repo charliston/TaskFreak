@@ -1,19 +1,19 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.5.4                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.5.4                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Genel',
-	'email_alerts'		=> 'Email Uyarıları',
-	'contexts'			=> 'Kategoriler'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Genel',
+    'email_alerts' => 'Email Uyarıları',
+    'contexts' => 'Kategoriler'
 );
 
 // email description
@@ -29,22 +29,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'Kimden',
-    'to'            => 'Kime',
-    'cc'            => 'Bilgi',
-    'dir'           => 'Dir.',
-    'dir_in'        => 'IN',
-    'dir_out'       => 'OUT',
-    'alert'         => 'Alarm',
-    'name'          => 'Ad',
-    'email'         => 'Email',
-    'subject'       => 'Konu',
+    'from' => 'Kimden',
+    'to' => 'Kime',
+    'cc' => 'Bilgi',
+    'dir' => 'Dir.',
+    'dir_in' => 'IN',
+    'dir_out' => 'OUT',
+    'alert' => 'Alarm',
+    'name' => 'Ad',
+    'email' => 'Email',
+    'subject' => 'Konu',
     'body_template' => 'Mesaj şablonu',
-    'enabled'       => 'Açıldı',
-    'enable_label'  => 'Email alarmını aç',
-    'disabled'      => 'Kapatıldı',
+    'enabled' => 'Açıldı',
+    'enable_label' => 'Email alarmını aç',
+    'disabled' => 'Kapatıldı',
     'disable_label' => 'Email alarmını kapat',
-    'link_edit'     => 'Email alarm ayarlarını düzenle'
+    'link_edit' => 'Email alarm ayarlarını düzenle'
 
 );
 ?>

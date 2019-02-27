@@ -1,19 +1,19 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user  - Swedish language, sunday version...                          *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Marcus Persson <marcus (at) gazebo.se>                            *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user  - Swedish language, sunday version...                          *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Marcus Persson <marcus (at) gazebo.se>                            *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Allmän',
-	'email_alerts'		=> 'Epost Alarm',
-	'contexts'			=> 'Kontext'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Allmän',
+    'email_alerts' => 'Epost Alarm',
+    'contexts' => 'Kontext'
 );
 
 // email description
@@ -29,22 +29,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'Från',
-    'to'            => 'Till',
-    'cc'            => 'Kopia',
-    'dir'           => 'Kat.',
-    'dir_in'        => 'IN',
-    'dir_out'       => 'UT',
-    'alert'         => 'Alarm',
-    'name'          => 'Namn',
-    'email'         => 'Epost',
-    'subject'       => 'Subjekt',
+    'from' => 'Från',
+    'to' => 'Till',
+    'cc' => 'Kopia',
+    'dir' => 'Kat.',
+    'dir_in' => 'IN',
+    'dir_out' => 'UT',
+    'alert' => 'Alarm',
+    'name' => 'Namn',
+    'email' => 'Epost',
+    'subject' => 'Subjekt',
     'body_template' => 'Body template',
-    'enabled'       => 'Aktiverad',
-    'enable_label'  => 'Aktivera epost alarm',
-    'disabled'      => 'Inaktiverad',
+    'enabled' => 'Aktiverad',
+    'enable_label' => 'Aktivera epost alarm',
+    'disabled' => 'Inaktiverad',
     'disable_label' => 'Inaktivera epost alarm',
-    'link_edit'     => 'Editera inställningar för epost alarm'
+    'link_edit' => 'Editera inställningar för epost alarm'
 
 );
 ?>

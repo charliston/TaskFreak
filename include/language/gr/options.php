@@ -1,71 +1,71 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 // project status
 $GLOBALS['langProjectStatus'] = array(
-	0 	=> 'ÍÝï',           // 0 is for new project
-	10	=> 'Ðñüôáóç',      // anything between 0 and 40
-	20 	=> 'Óå åêôÝëåóç',   // is free to be customized
-	40	=> 'Ïëïêëçñþèçêå',     // anything 40 and over
-	50	=> 'Áêõñþèçêå'      // is for non active projects
+    0 => 'ï¿½ï¿½ï¿½',           // 0 is for new project
+    10 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',      // anything between 0 and 40
+    20 => 'ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',   // is free to be customized
+    40 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',     // anything 40 and over
+    50 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'      // is for non active projects
 );
 
 // project position
 $GLOBALS['langProjectPosition'] = array(
-	1	=> 'åðéóêÝðôçò',	// see only, no action
-	2	=> 'Ó÷ïëéáóôÞò',	// add comments
-	3	=> 'ÌÝëïò',	// add tasks, add comments, task status
-	4	=> 'ÓõíôïíéóôÞò', // add/edit all tasks, comments, project members and status
-	5	=> 'Äéá÷åéñéóôÞò'     // everything
+    1 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',    // see only, no action
+    2 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',    // add comments
+    3 => 'ï¿½ï¿½ï¿½ï¿½ï¿½',    // add tasks, add comments, task status
+    4 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', // add/edit all tasks, comments, project members and status
+    5 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'     // everything
 );
 
 // members global position
 $GLOBALS['langGlobalPosition'] = array(
-	1	=> 'åðéóêÝðôçò',     // access own projects, view only public tasks
-	2	=> 'ÓõíåñãÜôçò',    // access own projects, create projects, create tasks
-	3	=> 'Manager',   // access own projects, create projects, tasks
-	4	=> 'Administrator' // everything
+    1 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',     // access own projects, view only public tasks
+    2 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',    // access own projects, create projects, create tasks
+    3 => 'Manager',   // access own projects, create projects, tasks
+    4 => 'Administrator' // everything
 );
 
 // task (item) status
 $GLOBALS['langItemStatus'] = array(
-	0	=> '0%',
-	1	=> '20%',
-	2	=> '40%',
-	3	=> '60%',
-	4	=> '80%',
-	5	=> '100%'
+    0 => '0%',
+    1 => '20%',
+    2 => '40%',
+    3 => '60%',
+    4 => '80%',
+    5 => '100%'
 );
 
 // contexts
 
-$GLOBALS['langItemContext'] = array (
-	1 => 'Åñãáóßá',
-	2 => 'ÓõíÜíôçóç',
-	3 => 'Áñ÷åßï',
-	4 => 'Internet',	
-	5 => 'ÔçëÝöùíï',
-	6 => 'Email',
-	7 => 'Áñ÷éêÞ',
-	8 => 'Áëëï'
+$GLOBALS['langItemContext'] = array(
+    1 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    2 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    3 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    4 => 'Internet',
+    5 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    6 => 'Email',
+    7 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    8 => 'ï¿½ï¿½ï¿½ï¿½'
 );
 
-$GLOBALS['langItemPriority'] = array (
-	1 => 'Åðåßãïí!',
-	2 => 'ÕøçëÞ ðñïôáéñåüôçôá',
-	3 => 'ÌÝôñéá ðñïôáéñåüôçôá',
-	4 => 'ÊáíïíéêÞ ðñïôáéñåüôçôá',	
-	5 => '×áìçëÞ ðñïôáéñåüôçôá',
-	6 => '×áìçëÞ ðñïôáéñåüôçôá',
-	7 => 'Ðïëý ÷áìçëÞ ðñïôáéñåüôçôá',
-	8 => 'Ðïëý ÷áìçëÞ ðñïôáéñåüôçôá',
-	9 => 'ÏôéäÞðïôå'
+$GLOBALS['langItemPriority'] = array(
+    1 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!',
+    2 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    3 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    4 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    5 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    6 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    7 => 'ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    8 => 'ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
+    9 => 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'
 );
 ?>

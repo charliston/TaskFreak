@@ -1,20 +1,20 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* Translation: Jan Michalicka <webdev@jimi.sk>                               *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * Translation: Jan Michalicka <webdev@jimi.sk>                               *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Všeobecné',
-	'email_alerts'		=> 'Emailové upozornenia',
-	'contexts'			=> 'Typy'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Všeobecné',
+    'email_alerts' => 'Emailové upozornenia',
+    'contexts' => 'Typy'
 );
 
 // email description
@@ -30,22 +30,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'Odosielateľ',
-    'to'            => 'Adresát',
-    'cc'            => 'Kópia',
-    'dir'           => 'Smer',
-    'dir_in'        => 'Z',
-    'dir_out'       => 'Do',
-    'alert'         => 'Upozornenie',
-    'name'          => 'Meno',
-    'email'         => 'Email',
-    'subject'       => 'Vec',
+    'from' => 'Odosielateľ',
+    'to' => 'Adresát',
+    'cc' => 'Kópia',
+    'dir' => 'Smer',
+    'dir_in' => 'Z',
+    'dir_out' => 'Do',
+    'alert' => 'Upozornenie',
+    'name' => 'Meno',
+    'email' => 'Email',
+    'subject' => 'Vec',
     'body_template' => 'Šablóna tela',
-    'enabled'       => 'Povolené',
-    'enable_label'  => 'Povoliť emailovú notifikáciu',
-    'disabled'      => 'Zakázané',
+    'enabled' => 'Povolené',
+    'enable_label' => 'Povoliť emailovú notifikáciu',
+    'disabled' => 'Zakázané',
     'disable_label' => 'Zakázať emailovú notifikáciu',
-    'link_edit'     => 'Upraviť nastavenia emailovej notifikácie'
+    'link_edit' => 'Upraviť nastavenia emailovej notifikácie'
 
 );
 ?>

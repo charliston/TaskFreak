@@ -1,19 +1,19 @@
 <?php
 /****************************************************************************\
-* TaskFreak!                                                                 *
-* multi user                                                                 *
-******************************************************************************
-* Version: 0.6.3                                                             *
-* Authors: Stan Ozier <taskfreak@gmail.com>                                  *
-* License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
-\****************************************************************************/
+ * TaskFreak!                                                                 *
+ * multi user                                                                 *
+ ******************************************************************************
+ * Version: 0.6.3                                                             *
+ * Authors: Stan Ozier <taskfreak@gmail.com>                                  *
+ * License:  http://www.gnu.org/licenses/gpl.txt (GPL)                        *
+ * \****************************************************************************/
 
 
 // system menu
-$GLOBALS['langSystemMenu'] = array (
-	'general'   		=> 'Geral',
-	'email_alerts'		=> 'Alertas por E-mail',
-	'contexts'			=> 'Contextos'
+$GLOBALS['langSystemMenu'] = array(
+    'general' => 'Geral',
+    'email_alerts' => 'Alertas por E-mail',
+    'contexts' => 'Contextos'
 );
 
 // email description
@@ -29,22 +29,22 @@ $GLOBALS['langSystemEmail'] = array(
 
 // email stuff
 $GLOBALS['langSystemEmailStuff'] = array(
-    'from'          => 'De',
-    'to'            => 'Para',
-    'cc'            => 'CC',
-    'dir'           => 'Dir.',
-    'dir_in'        => 'IN',
-    'dir_out'       => 'OUT',
-    'alert'         => 'Alerta',
-    'name'          => 'Nome',
-    'email'         => 'E-mail',
-    'subject'       => 'Assunto',
+    'from' => 'De',
+    'to' => 'Para',
+    'cc' => 'CC',
+    'dir' => 'Dir.',
+    'dir_in' => 'IN',
+    'dir_out' => 'OUT',
+    'alert' => 'Alerta',
+    'name' => 'Nome',
+    'email' => 'E-mail',
+    'subject' => 'Assunto',
     'body_template' => 'Template do Corpo',
-    'enabled'       => 'Habilitado',
-    'enable_label'  => 'Habilitar alerta por e-mail',
-    'disabled'      => 'Desabilitado',
+    'enabled' => 'Habilitado',
+    'enable_label' => 'Habilitar alerta por e-mail',
+    'disabled' => 'Desabilitado',
     'disable_label' => 'Desabilitar alerta por e-mail',
-    'link_edit'     => 'Editar configura&ccedil;&otilde;es do alerta de e-mail'
+    'link_edit' => 'Editar configura&ccedil;&otilde;es do alerta de e-mail'
 
 );
 ?>

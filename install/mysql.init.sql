@@ -251,7 +251,7 @@ CREATE TABLE `frk_item` (
   `context` varchar(80) NOT NULL default '',
   `title` varchar(255) NOT NULL default '',
   `description` text NOT NULL,
-  `deadlineDate` date NOT NULL default '0000-00-00',
+  `deadlineDate` datetime NOT NULL default current_timestamp,
   `expectedDuration` smallint(5) unsigned NOT NULL default '0',
   `showInCalendar` tinyint(1) unsigned NOT NULL default '0',
   `showPrivate` tinyint(1) unsigned NOT NULL default '0',
@@ -261,17 +261,17 @@ CREATE TABLE `frk_item` (
   KEY `projectId` (`projectId`),
   KEY `memberId` (`memberId`)
 ) TYPE=MyISAM;
-INSERT INTO `frk_item` VALUES (1, 1, 0, 3, '1', 'Congratulations! This is your first task', 'First of all, read the README.txt if you haven''t done it yet.\r\n\r\nLots of informations in there.', '9999-00-00', 0, 0, 0, 1, 1);
-INSERT INTO `frk_item` VALUES (2, 1, 0, 5, '1', 'How to create a user', 'To create a new user, go to menu <i>manage > users</i> \r\n\r\nthen click on the <img src="skins/redfreak/images/b_new.png" /> button.', '9999-00-00', 0, 0, 2, 1, 1);
-INSERT INTO `frk_item` VALUES (3, 1, 0, 7, '4', 'Send some feedback', 'To send some feedback to the author, go to\r\n<a href="http://forum.taskfreak.com" target="_blank">http://forum.taskfreak.com</a>\r\n\r\nPlease remember you can donate by paypal on\r\n<a href="http://www.taskfreak.com" target="_blank">http://www.taskfreak.com</a>', '9999-00-00', 0, 0, 1, 1, 1);
+INSERT INTO `frk_item` VALUES (1, 1, 0, 3, '1', 'Congratulations! This is your first task', 'First of all, read the README.txt if you haven''t done it yet.\r\n\r\nLots of informations in there.', '9999-12-31', 0, 0, 0, 1, 1);
+INSERT INTO `frk_item` VALUES (2, 1, 0, 5, '1', 'How to create a user', 'To create a new user, go to menu <i>manage > users</i> \r\n\r\nthen click on the <img src="skins/redfreak/images/b_new.png" /> button.', '9999-12-31', 0, 0, 2, 1, 1);
+INSERT INTO `frk_item` VALUES (3, 1, 0, 7, '4', 'Send some feedback', 'To send some feedback to the author, go to\r\n<a href="http://forum.taskfreak.com" target="_blank">http://forum.taskfreak.com</a>\r\n\r\nPlease remember you can donate by paypal on\r\n<a href="http://www.taskfreak.com" target="_blank">http://www.taskfreak.com</a>', '9999-12-31', 0, 0, 1, 1, 1);
 
 CREATE TABLE `frk_itemComment` (
   `itemCommentId` bigint(20) unsigned NOT NULL auto_increment,
   `itemId` int(10) unsigned NOT NULL default '0',
   `memberId` mediumint(8) unsigned NOT NULL default '0',
-  `postDate` datetime NOT NULL default '0000-00-00 00:00:00',
+  `postDate` datetime NOT NULL default current_timestamp,
   `body` text NOT NULL,
-  `lastChangeDate` datetime NOT NULL default '0000-00-00 00:00:00',
+  `lastChangeDate` datetime NOT NULL default current_timestamp,
   PRIMARY KEY  (`itemCommentId`),
   KEY `taskId` (`itemId`)
 ) TYPE=MyISAM;
@@ -284,8 +284,8 @@ CREATE TABLE `frk_itemFile` (
   `filename` varchar(127) NOT NULL default '',
   `filetype` varchar(30) NOT NULL default '',
   `filesize` bigint(20) NOT NULL default '0',
-  `postDate` datetime NOT NULL default '0000-00-00 00:00:00',
-  `lastChangeDate` datetime NOT NULL default '0000-00-00 00:00:00',
+  `postDate` datetime NOT NULL default current_timestamp,
+  `lastChangeDate` datetime NOT NULL default current_timestamp,
   `fileTags` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`itemFileId`),
   KEY `taskId` (`itemId`)
@@ -294,7 +294,7 @@ CREATE TABLE `frk_itemFile` (
 CREATE TABLE `frk_itemStatus` (
   `itemStatusId` bigint(20) unsigned NOT NULL auto_increment,
   `itemId` int(10) unsigned NOT NULL default '0',
-  `statusDate` datetime NOT NULL default '0000-00-00 00:00:00',
+  `statusDate` datetime NOT NULL default current_timestamp,
   `statusKey` tinyint(3) unsigned NOT NULL default '0',
   `memberId` mediumint(8) unsigned NOT NULL default '0',
   PRIMARY KEY  (`itemStatusId`),
@@ -323,11 +323,11 @@ CREATE TABLE `frk_member` (
   `salt` varchar(8) NOT NULL default '',
   `autoLogin` tinyint(1) NOT NULL default '0',
   `timeZone` smallint(6) NOT NULL default '0',
-  `expirationDate` datetime NOT NULL default '0000-00-00 00:00:00',
-  `lastLoginDate` datetime NOT NULL default '0000-00-00 00:00:00',
+  `expirationDate` datetime NOT NULL default current_timestamp,
+  `lastLoginDate` datetime NOT NULL default current_timestamp,
   `lastLoginAddress` varchar(60) NOT NULL default '',
-  `creationDate` datetime NOT NULL default '0000-00-00 00:00:00',
-  `lastChangeDate` datetime NOT NULL default '0000-00-00 00:00:00',
+  `creationDate` datetime NOT NULL default current_timestamp,
+  `lastChangeDate` datetime NOT NULL default current_timestamp,
   `visits` mediumint(8) unsigned NOT NULL default '0',
   `badAccess` tinyint(3) unsigned NOT NULL default '0',
   `level` tinyint(3) unsigned NOT NULL default '0',
@@ -337,7 +337,7 @@ CREATE TABLE `frk_member` (
   PRIMARY KEY  (`memberId`),
   KEY `username` (`username`)
 ) TYPE=MyISAM;
-INSERT INTO `frk_member` VALUES (1, 'admin@taskfreak.com', 'Mr', 'Admin', '', 'Istrator', '', '', '', 'FR', '', '', '', 'admin', '', '12345678', 0, 7200, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '', '2006-06-01 00:00:00', '0000-00-00 00:00:00', 0, 0, 4, '', 1, 1);
+INSERT INTO `frk_member` VALUES (1, 'admin@taskfreak.com', 'Mr', 'Admin', '', 'Istrator', '', '', '', 'FR', '', '', '', 'admin', '', '12345678', 0, 7200, current_timestamp, current_timestamp, '', '2006-06-01 00:00:00', current_timestamp, 0, 0, 4, '', 1, 1);
 
 CREATE TABLE `frk_memberProject` (
   `memberId` mediumint(8) unsigned NOT NULL default '0',
@@ -358,7 +358,7 @@ INSERT INTO `frk_project` VALUES (1, 'Your first project', '');
 CREATE TABLE `frk_projectStatus` (
   `projectStatusId` int(10) unsigned NOT NULL auto_increment,
   `projectId` mediumint(10) unsigned NOT NULL default '0',
-  `statusDate` datetime NOT NULL default '0000-00-00 00:00:00',
+  `statusDate` datetime NOT NULL default current_timestamp,
   `statusKey` tinyint(3) unsigned NOT NULL default '0',
   `memberId` mediumint(8) unsigned NOT NULL default '0',
   PRIMARY KEY  (`projectStatusId`),
